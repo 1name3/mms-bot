@@ -53,3 +53,12 @@ Feel free to fork the repo and submit pull requests. Suggestions and improvement
 ## License
 
 This project is licensed under the MIT License.
+
+
+
+
+
+
+
+
+<img alt="Static Badge" src="https://img.shields.io/badge/progress-37%?style=flat&logoColor=rgb">
