@@ -61,4 +61,5 @@ This project is licensed under the MIT License.
 
 
 
-<img alt="Static Badge" src="https://img.shields.io/badge/progress-37%?style=flat&logoColor=rgb">
+![Progress](https://img.shields.io/badge/progress-37%25-red)
+
