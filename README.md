@@ -1,7 +1,7 @@
-# MMS.ba Auto Writer Bot
+# MMS.baa Auto Writer Bot
 
 <p align="center">
-  <img src="Neues%20Projekt.png" alt="MMS Bot Banner" width="800">
+  <img src="mms-bot_banner.png" alt="MMS Bot Banner" width="800">
 </p>
 
 This is a simple Python bot that automatically writes text into the MMS.ba website, which is similar to a typewriter interface. It uses Chrome to interact with the site and simulates user input to complete exercises.
