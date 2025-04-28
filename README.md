@@ -1,9 +1,9 @@
 # MMS.baa Auto Writer Bot
 
 
-
-![MMS Bot Banner](./Downloads/mms-bot_banner.png)
-
+<p align="center">
+  <img src="mms-bot_banner.png" alt="MMS Bot Banner" width="800">
+</p>
 
 
 
