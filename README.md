@@ -1,130 +1,69 @@
-%25-
+# MMS.ba Auto Writer Bot
+
 <p align="center">
   <img src="Neues%20Projekt.png" alt="MMS Bot Banner" width="800">
 </p>
 
-# MMS.ba Auto Writer Bot
+This is a simple Python bot that automatically writes text into the MMS.ba website, which is similar to a typewriter interface. It uses Chrome to interact with the site and simulates user input to complete exercises.
 
-Ein einfacher Python-Bot, der automatisch Texte auf der MMS.ba-Website eintippt – ähnlich einer Schreibmaschine.  
-Er nutzt Google Chrome zur Automatisierung und hilft dabei, Übungen schneller zu erledigen.
+## Status
 
----
+This project is currently a work in progress. The bot is not fully functional yet and may fail frequently. I'm actively working on improvements and bug fixes.
 
-## 📋 Inhaltsverzeichnis
-- [Status](#status)
-- [Funktionen](#funktionen)
-- [Voraussetzungen](#voraussetzungen)
-- [Installation](#installation)
-  - [Spezielle Hinweise für Windows-Nutzer](#spezielle-hinweise-für-windows-nutzer)
-- [Verwendung](#verwendung)
-- [Hinweise](#hinweise)
-- [Mitwirken](#mitwirken)
-- [Lizenz](#lizenz)
+## Features
 
----
+- Automatically writes the required text for exercises on MMS.ba
+- Easy to use – just run the script and select your lesson and task
+- Uses Chrome browser for automation
+- Designed for students or users who want to speed up the typing process
 
-## 🚧 Status
-
-Dieses Projekt befindet sich aktuell noch in der Entwicklung.  
-Der Bot funktioniert bereits in Grundzügen, kann aber noch Fehler verursachen.  
-Ich arbeite aktiv an Verbesserungen, neuen Funktionen und einem möglichen Interface!
-
----
-
-## ✨ Funktionen
-
-- Automatisches Schreiben des benötigten Übungstextes auf MMS.ba
-- Einfache Bedienung: Script starten, Lektion und Aufgabe auswählen
-- Steuerung und Automatisierung über den Chrome-Browser
-- Ideal für Schüler und Nutzer, die den Tippvorgang beschleunigen möchten
-
----
-
-## 🛠️ Voraussetzungen
+## Requirements
 
 - Python 3.x
-- Google Chrome installiert
-- Passender ChromeDriver
-- Python-Bibliothek `selenium`
+- Google Chrome installed
+- ChromeDriver (make sure it matches your Chrome version)
+- `selenium` library (install via `pip install selenium`)
 
----
+## Installation
 
-## 📥 Installation
-
-1. Repository klonen oder Dateien herunterladen.
-2. Benötigte Python-Bibliothek installieren:
+1. Clone this repository or download the files.
+2. Install the required Python libraries:
    ```bash
    pip install selenium
    ```
-3. ChromeDriver herunterladen:  
+3. Download ChromeDriver and place it in the same directory as the script or set the path in the code:
    [https://sites.google.com/a/chromium.org/chromedriver/](https://sites.google.com/a/chromium.org/chromedriver/)
-4. ChromeDriver:
-   - Im selben Verzeichnis wie das Skript speichern **oder**
-   - Pfad zum ChromeDriver im Code anpassen.
 
----
+## Usage
 
-## 🖥️ Spezielle Hinweise für Windows-Nutzer
-
-**Python und Pip Befehle**
-
-- Falls `python` oder `pip` nicht erkannt wird:
-  ```bash
-  py -m pip install selenium
-  ```
-  und
-  ```bash
-  py mms_writer_bot.py
-  ```
-
-**ChromeDriver Setup**
-
-- Lade die passende ChromeDriver-Version herunter.
-- Lege die `chromedriver.exe` ins gleiche Verzeichnis wie dein Skript.
-- Alternativ: Füge den ChromeDriver-Ordner zur Systemumgebungsvariablen `PATH` hinzu:
-  - Rechtsklick auf „Dieser PC“ → Eigenschaften → Erweiterte Systemeinstellungen → Umgebungsvariablen → `Path` → Bearbeiten → neuen Ordnerpfad hinzufügen.
-
-**Terminal verwenden**
-
-- CMD oder PowerShell öffnen, dann:
-  ```bash
-  python mms_writer_bot.py
-  ```
-
----
-
-## 🚀 Verwendung
-
-1. Skript starten:
+1. Run the Python script:
    ```bash
    python mms_writer_bot.py
    ```
-2. Chrome öffnet sich automatisch.
-3. Lektion und Aufgabe auswählen.
-4. Der Bot beginnt automatisch zu tippen.
+2. Chrome will open automatically.
+3. Select the lesson and the task you want.
+4. The bot will begin typing the text automatically.
 
----
+## Notes
 
-## ℹ️ Hinweise
+- This bot is designed for educational purposes.
+- Make sure to use it responsibly and follow the site's usage rules.
+- The website is located at [https://mms.baa.at/](https://mms.baa.at/).
 
-- Der Bot ist **nur für Bildungszwecke** entwickelt worden.
-- Bitte die Regeln und Nutzungsbedingungen der Website respektieren:  
-  [https://mms.baa.at/](https://mms.baa.at/)
+## Contributing
 
----
+Feel free to fork the repo and submit pull requests. Suggestions and improvements are always welcome!
 
-## 🤝 Mitwirken
+## License
 
-Pull Requests, Bug Reports und neue Ideen sind jederzeit willkommen! 🎉  
-Einfach das Repository forken, Änderungen machen und einen Merge Request einreichen.
+This project is licensed under the MIT License.
 
----
 
-## 📄 Lizenz
 
-Dieses Projekt steht unter der [MIT-Lizenz](LICENSE).
 
----
 
-**Projektfortschritt:**  
-![Progress](https://img.shields.io/badge/progress-76red)
+
+
+
+![Progress](https://img.shields.io/badge/progress-76%25-red)
+
