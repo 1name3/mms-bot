@@ -1,8 +1,7 @@
-
 # MMS.baa Auto Writer Bot
 
 <p align="center">
-  <img src="https://github.com/1name3/mms-bot/raw/main/mms-bot_banner.png" alt="MMS Bot Banner" width="800">
+  <img src="https://github.com/1name3/mms-bot/raw/main/mms-bot-banner.png" alt="MMS Bot Banner" width="800">
 </p>
 
 This is a simple Python bot that automatically writes text into the MMS.ba website, which is similar to a typewriter interface. It uses Chrome to interact with the site and simulates user input to complete exercises.
@@ -31,32 +30,32 @@ This project is currently a work in progress. The bot is not fully functional ye
 2. Install the required Python libraries:
    ```bash
    pip install selenium
-   ```
-3. Download ChromeDriver and place it in the same directory as the script or set the path in the code:
-   [https://sites.google.com/a/chromium.org/chromedriver/](https://sites.google.com/a/chromium.org/chromedriver/)
+Download ChromeDriver and place it in the same directory as the script or set the path in the code: https://sites.google.com/a/chromium.org/chromedriver/
 
-## Usage
+Usage
+Run the Python script:
 
-1. Run the Python script:
-   ```bash
-   python mms_writer_bot.py
-   ```
-2. Chrome will open automatically.
-3. Select the lesson and the task you want.
-4. The bot will begin typing the text automatically.
+bash
+Kopieren
+Bearbeiten
+python mms_writer_bot.py
+Chrome will open automatically.
 
-## Notes
+Select the lesson and the task you want.
 
-- This bot is designed for educational purposes.
-- Make sure to use it responsibly and follow the site's usage rules.
-- The website is located at [https://mms.baa.at/](https://mms.baa.at/).
+The bot will begin typing the text automatically.
 
-## Contributing
+Notes
+This bot is designed for educational purposes.
 
+Make sure to use it responsibly and follow the site's usage rules.
+
+The website is located at https://mms.baa.at/.
+
+Contributing
 Feel free to fork the repo and submit pull requests. Suggestions and improvements are always welcome!
 
-## License
-
+License
 This project is licensed under the MIT License.
 
 ![Progress](https://img.shields.io/badge/progress-76%25-red)
