@@ -1,11 +1,9 @@
+
 # MMS.baa Auto Writer Bot
 
-
 <p align="center">
-  <img src="mms-bot_banner.png" alt="MMS Bot Banner" width="800">
+  <img src="https://github.com/1name3/mms-bot/raw/main/mms-bot_banner.png" alt="MMS Bot Banner" width="800">
 </p>
-
-
 
 This is a simple Python bot that automatically writes text into the MMS.ba website, which is similar to a typewriter interface. It uses Chrome to interact with the site and simulates user input to complete exercises.
 
@@ -61,12 +59,4 @@ Feel free to fork the repo and submit pull requests. Suggestions and improvement
 
 This project is licensed under the MIT License.
 
-
-
-
-
-
-
-
 ![Progress](https://img.shields.io/badge/progress-76%25-red)
-
