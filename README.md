@@ -58,4 +58,4 @@ Feel free to fork the repo and submit pull requests. Suggestions and improvement
 License
 This project is licensed under the MIT License.
 
-![Progress](https://img.shields.io/badge/progress-76%25-red)
+![Progress](https://img.shields.io/badge/progress-80%25-red)
